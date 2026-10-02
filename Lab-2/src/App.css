@@ -11,62 +11,58 @@ header h1 {
 
 .resort-container {
   display: flex;
-  gap: 18px;
-  padding: 20px 24px 40px 24px;
+  padding: 20px;
 }
 
 .card {
   width: 100px;
-  flex-shrink: 0;
+  margin-right: 18px;
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 8px;
 }
 
 .card img {
   width: 100px;
   height: 165px;
-  object-fit: cover;
+  border-radius: 8px;
 }
 
 .card-info {
   width: 100px;
+  padding: 5px;
 }
 
 .card h2 {
+  color: black;
   font-size: 12px;
   margin: 5px 0 0 0;
-  white-space: nowrap;
 }
 
-.card-info > p {
+.location {
+  color: gray;
   font-size: 12px;
   font-style: italic;
   margin: 0;
-  white-space: nowrap;
 }
 
-.card-info > p:not(.green):not(.red) {
-  color: gray;
-}
-
-.card-info .green {
+.green {
   color: green;
   font-size: 12px;
-  font-style: normal;
   margin: 6px 0;
 }
 
-.card-info .red {
+.red {
   color: red;
   font-size: 12px;
-  font-style: normal;
   margin: 6px 0;
 }
 
 .card h3 {
-  font-size: 12px;
   color: gray;
+  font-size: 12px;
   font-weight: normal;
   margin: 7px 0 0 0;
-  white-space: nowrap;
 }
 
 .card h3 span {

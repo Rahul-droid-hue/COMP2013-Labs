@@ -8,7 +8,7 @@ function ResortCard(props: ResortListing) {
       <div className="card-info">
         <h2>{props.country}</h2>
 
-        <p>{props.location}</p>
+        <p className="location">{props.location}</p>
 
         <p className={props.rating > 4.0 ? "green" : "red"}>{props.rating}★</p>
 
